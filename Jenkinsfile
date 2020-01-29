@@ -8,10 +8,10 @@ pipeline{
     stages {
         stage('Run Tests'){
             steps {
-                sh "npm install"
-                sh "npm install webdriver-manager -g"
-                sh "npm run wdup"
-                sh "npm test"
+                sh "sudo npm install"
+                sh "sudo npm install webdriver-manager -g"
+                sh "sudo npm run wdup"
+                sh "sudo npm test"
             }
         }
     }
