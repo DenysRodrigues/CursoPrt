@@ -1,8 +1,8 @@
 // Arquivo de configuração de Protractor
 
 exports.config = {
-     directConnect: true,
-    //seleniumAddress: 'http://selenium_server:4444/wd/hub',
+    //directConnect: true,
+    seleniumAddress: 'http://selenium_server:4444/wd/hub',
     framework: 'jasmine2',
     specs: ['specs/**-spec.js'],
     //baseURL:'http://localhost:5000',
